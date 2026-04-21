@@ -26,3 +26,9 @@ jobs:
             sudo dscl . -create /Users/madmin
             sudo dscl . -create /Users/madmin UserShell /bin/zsh
             sudo dscl . -create /Users/madmin RealName Very_real_name
+            whoami
+            sudo dscl . -create /Users/madmin RealName Runner_Admin
+            sudo dscl . -create /Users/madmin UniqueID 1001
+            sudo dscl . -create /Users/madmin PrimaryGroupID 80
+            sudo dscl . -create /Users/madmin NFSHomeDirectory /Users/madmin
+            sudo dscl . -passwd /Users/madmin password
