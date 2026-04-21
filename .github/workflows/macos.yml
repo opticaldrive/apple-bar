@@ -31,4 +31,7 @@ jobs:
             sudo dscl . -create /Users/madmin UniqueID 1001
             sudo dscl . -create /Users/madmin PrimaryGroupID 80
             sudo dscl . -create /Users/madmin NFSHomeDirectory /Users/madmin
-            sudo dscl . -passwd /Users/madmin password
+            # ykw idk what im doing this is a lot of stack overflow pastes 
+            # later i'll just fix this and get remoting working
+
+        
